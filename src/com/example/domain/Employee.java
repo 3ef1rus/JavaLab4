@@ -13,6 +13,13 @@ public class Employee {
         this.salary = salary;
     }
 
+    public void raiseSalary(double increase){ 
+        if (increase>0){
+        salary += increase;
+        }
+        }
+        
+
     public int getEmpId() {
         return empId;
     }
