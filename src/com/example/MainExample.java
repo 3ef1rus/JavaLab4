@@ -8,6 +8,7 @@ public class MainExample {
             ComplicatedObject clone = prototype.copy();
             clone.setType(ComplicatedObject.Type.ONE);
        
-
+System.out.println(prototype);
+System.out.println(clone);
     }
 }
