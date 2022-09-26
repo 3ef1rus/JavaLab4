@@ -14,7 +14,7 @@ public class MainExample {
         Figures square = new Figures("triugl",4);
         Voluminous cube = new Voluminous("cube",8,10);
         Flat triugle = new Flat("triugle",3,9);
-        Spherical oval = new Spherical("oval", 0)
+        Spherical oval = new Spherical("oval", 0);
         printFigure(square);
         printFigure(cube);
         printFigure(triugle);
