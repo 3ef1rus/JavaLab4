@@ -4,11 +4,11 @@ import com.example.clas.People;
 public class MainExample {
 
     public static void main(String[] args) {
-        People prototype = new People();
-            People clone = prototype.copy();
-            clone.setName("ivan");
+        People boy = new People("vasia");
+            People girl = boy.copy();
+            girl.setName("anna");
        
-System.out.println(prototype);
-System.out.println(clone);
+System.out.println(boy.name);
+System.out.println(girl.name);
     }
 }
