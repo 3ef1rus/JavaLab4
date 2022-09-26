@@ -9,6 +9,7 @@ public class MainExample {
     private static void printFigure(Figures emp) {
         System.out.println("Figure name: " + emp.getName());
         System.out.println("Figure number corners: " + emp.getNumCorners());
+        System.out.println(" ");
     }
     public static void main(String[] args) {
         Figures square = new Figures("triugl",4);
