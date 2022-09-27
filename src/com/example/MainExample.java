@@ -20,6 +20,5 @@ public class MainExample {
         printFigure(cube);
         printFigure(triugle);
         printFigure(oval);
-        printFigure(oval);
     }
 }
