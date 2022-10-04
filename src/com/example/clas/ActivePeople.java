@@ -8,10 +8,10 @@ public class ActivePeople extends People implements Facade {
         super(name);
     }
     public void start(){
-        System.out.println("Начал идти");
+        System.out.println("РќР°С‡Р°С‚СЊ РёРґС‚Рё");
     }
     public void stop(){
-        System.out.println("Остановился");
+        System.out.println("РћСЃС‚Р°РЅРѕРІРёС‚СЊСЃСЏ");
     }
 }
     
